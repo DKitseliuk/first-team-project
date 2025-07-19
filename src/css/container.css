@@ -1,22 +1,21 @@
-/* Styles for Mobile devices */
+.section {
+  margin: 0 auto;
+}
+
 .container {
-  min-width: 320px;
-  max-width: 320px;
+  max-width: 368px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
-/* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
+@media (min-width: 736px) {
   .container {
-    max-width: 768px;
+    max-width: 736px;
   }
 }
 
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1158px) {
+@media (min-width: 1168px) {
   .container {
-    max-width: 1158px;
-    padding: 0 15px;
+    max-width: 1168px;
   }
 }
