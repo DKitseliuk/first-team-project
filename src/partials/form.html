@@ -1,0 +1,100 @@
+<div class="overlay" data-modal-leave-review>
+  <div class="container-form">
+    <button
+      class="button button-close-form"
+      type="button"
+      data-leave-review-close
+    >
+      <svg class="button-close-form-icon" width="24" height="24">
+        <use href="/img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="review-form-subtitle">
+      Leave a review<br class="first-br" />
+      about<br class="second-br" />
+      <span class="orange">our chocolate</span>
+    </p>
+    <form class="review-form">
+      <div class="review-form-box">
+        <label class="review-form-label" for="user-name">Name</label>
+        <div class="review-form-box-input">
+          <input
+            class="review-form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            required
+          />
+          <svg class="review-form-svg-input" width="16" height="16">
+            <use href="/img/icons.svg#icon-user"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="review-form-box">
+        <label class="review-form-label" for="user-email">Email</label>
+        <div class="review-form-box-input">
+          <input
+            class="review-form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            required
+          />
+          <svg class="review-form-svg-input" width="16" height="16">
+            <use href="/img/icons.svg#icon-mail"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="review-form-box">
+        <label class="review-form-label" for="user-phone-number"
+          >Phone number
+        </label>
+        <div class="review-form-box-input">
+          <input
+            class="review-form-input"
+            type="tel"
+            id="user-phone-number"
+            name="user-phone-number"
+          />
+          <svg class="review-form-svg-input" width="16" height="16">
+            <use href="/img/icons.svg#icon-phone"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="review-form-textarea-box">
+        <label class="review-form-label" for="user-comment">Comment</label>
+        <textarea
+          class="review-form-texarea"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Enter text"
+          required
+        ></textarea>
+      </div>
+      <div class="review-form-checkbox-container">
+        <input
+          type="checkbox"
+          value="true"
+          name="user-privacy"
+          id="user-privacy"
+          class="review-form-checkbox visually-hidden"
+          required
+        />
+        <label for="user-privacy" class="review-form-checkbox-label">
+          <span class="review-custom-checkbox">
+            <svg class="review-custom-checkbox-img" width="10" height="8">
+              <use href="/img/icons.svg#icon-checked"></use>
+            </svg>
+          </span>
+          <span class="review-form-checkbox-label-text">
+            I accept the terms and conditions of the
+            <a href="#" class="review-form-checkbox-link" target="_blank"
+              >privacy policy</a
+            >
+          </span>
+        </label>
+      </div>
+      <button type="submit" class="form-btn review-form-bnt">Send</button>
+    </form>
+  </div>
+</div>
